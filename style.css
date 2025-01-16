@@ -1,4 +1,16 @@
-h3{
-    background-color: hsl(0, 95%, 17%);
-    color: rgb(168, 134, 133);
-    }
+.background-color-task-1 {
+    background-color:#d39c9c67;
+}
+.first-task-links { 
+    color: green;
+        display: block;
+        margin: auto;
+        border: 3px rgb(235, 177, 177) solid;
+        background-color: #e1ffc6;
+        width: 200px;
+        text-align: center; 
+}
+
+.news-links {
+    color: #a84b4b;
+}
