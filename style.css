@@ -1,16 +1,55 @@
 .background-color-task-1 {
-    background-color:#d39c9c67;
+    background-color: #d39c9c67;
+    text-align: center;
 }
-.first-task-links { 
+
+.first-task-links {
     color: green;
-        display: block;
-        margin: auto;
-        border: 3px rgb(235, 177, 177) solid;
-        background-color: #e1ffc6;
-        width: 200px;
-        text-align: center; 
+    display: block;
+    margin: auto;
+    border: 3px rgb(235, 177, 177) solid;
+    background-color: #e1ffc6;
+    width: 200px;
+    text-align: center;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 100;
 }
 
 .news-links {
     color: #a84b4b;
+}
+
+.back-button {
+    width: 500px
+}
+
+#img-prs-details {
+    margin: 0px 0px 100px
+}
+
+#contact-us-form {
+    background-color: #f0d4b3;
+    color: #8b004685;
+    border: 5px #806646 solid;
+}
+
+.green-links-vids {
+    color: darkolivegreen;
+}
+
+.beige-back-vids {
+    background-color: beige;
+}
+
+#div-vids {
+    background-color: rgb(58, 58, 114);
+}
+
+#table-vids {
+    background-color: rgb(107, 171, 226);
+    margin: auto 
+    
 }
