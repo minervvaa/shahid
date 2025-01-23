@@ -11,6 +11,7 @@
     background-color: #e1ffc6;
     width: 200px;
     text-align: center;
+    
 }
 
 .title {
@@ -22,20 +23,29 @@
     color: #a84b4b;
 }
 
-.back-button {
+.button {
     width: 500px
 }
 
 #img-prs-details {
-    margin: 0px 0px 100px
+    padding: 10px;
+    margin: 0px 0px 100px;
+    
+}
+
+#ul-prs-details {
+    text-align: right;
 }
 
 #contact-us-form {
-    background-color: #f0d4b3;
-    color: #8b004685;
+    background-color: #e6d7c1;
+    color: #c4141485;
     border: 5px #806646 solid;
 }
 
+#contact-us-button {
+    margin: 10px;
+}
 .green-links-vids {
     color: darkolivegreen;
 }
@@ -44,12 +54,16 @@
     background-color: beige;
 }
 
-#div-vids {
-    background-color: rgb(58, 58, 114);
-}
-
 #table-vids {
-    background-color: rgb(107, 171, 226);
-    margin: auto 
-    
+    background-color: rgb(181, 207, 230);
+    margin: auto;  
+    border: 1px gray solid;
+    padding: 5px; 
 }
+ #srch-vids {
+    height:200px;
+ }
+
+ #cat-vids {
+    color: darkolivegreen;
+ }
