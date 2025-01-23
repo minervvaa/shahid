@@ -6,12 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact us</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
+<style>
+   
+    form{
+        box-shadow: rgb(112, 71, 71) 10px 10px 10px
+    }
+</style>
 
 <body class="background-color-task-1">
-    <h1  class=title > Contact Us </h1>
+    <h1  class=title  > Contact Us </h1>
+    
+    <p style="position: fixed ; top:50px;right: 0px;;">Shahid</p>
 
-    <form id="contact-us-form">
+    <form id="contact-us-form" style="position: relative ; top: 10px ;">
 
         <label>
             First name <input type="text" required style="color:inherit;" />
@@ -53,10 +64,11 @@
             <option value="oth">other</option>
             <option value="f" selected disabled>Chose from the list</option>
         </select><br>
+        <button value="submit" id="contact-us-button" style="position: absolute ; right:10px; bottom: 5px;">Submit</button><br>
 
-    </form>
-    <button value="submit" id="contact-us-button">Submit</button><br>
-    <button class="button"><a href="index.html">חזרה לדף הבית</a></button>
+    </form><br>
+    <img style="position: absolute; left: 0;top: 0;" src="https://img.uxcel.com/tags/notifications-1700498330224-2x.jpg"  width="90" >
+    <button style="margin:20000px 0px;  " class="button"><a href="index.html">חזרה לדף הבית</a></button>
     
 </body>
 </html>

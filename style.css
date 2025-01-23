@@ -1,6 +1,5 @@
 .background-color-task-1 {
     background-color: #d39c9c67;
-    text-align: center;
 }
 
 .first-task-links {
@@ -8,29 +7,32 @@
     display: block;
     margin: auto;
     border: 3px rgb(235, 177, 177) solid;
-    background-color: #e1ffc6;
+    background-color: hsl(92, 100%, 89%);
     width: 200px;
     text-align: center;
-    
 }
 
 .title {
     font-size: 32px;
     font-weight: 100;
+    text-align: center;
 }
 
+
 .news-links {
-    color: #a84b4b;
+    color: hsl(0, 38%, 48%);
 }
 
 .button {
-    width: 500px
+    text-align: center;
+    width: 500px  
 }
+
 
 #img-prs-details {
     padding: 10px;
     margin: 0px 0px 100px;
-    
+
 }
 
 #ul-prs-details {
@@ -38,32 +40,43 @@
 }
 
 #contact-us-form {
-    background-color: #e6d7c1;
-    color: #c4141485;
-    border: 5px #806646 solid;
+    background-color: hwb(36 76% 10%);
+    color: rgb(194, 20, 20);
+    border: 5px hsl(33, 29%, 39%) solid;
+    text-align: center;
 }
+
 
 #contact-us-button {
     margin: 10px;
 }
-.green-links-vids {
+
+.green-links-vids{
     color: darkolivegreen;
 }
 
-.beige-back-vids {
+.beige-back-vids  {
+    
     background-color: beige;
 }
 
 #table-vids {
-    background-color: rgb(181, 207, 230);
-    margin: auto;  
+    background-color: lightblue;
+    margin: auto;
     border: 1px gray solid;
-    padding: 5px; 
+    padding: 5px;
+    color: #ff7c7c;
 }
- #srch-vids {
-    height:200px;
- }
 
- #cat-vids {
+.img-vids {
+    opacity: 0.5;
+}
+
+#srch-vids {
+    height: 200px;
+}
+
+#cat-vids {
     color: darkolivegreen;
  }
+ 
