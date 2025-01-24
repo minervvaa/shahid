@@ -39,18 +39,6 @@
     text-align: right;
 }
 
-#contact-us-form {
-    background-color: hwb(36 76% 10%);
-    color: rgb(194, 20, 20);
-    border: 5px hsl(33, 29%, 39%) solid;
-    text-align: center;
-}
-
-
-#contact-us-button {
-    margin: 10px;
-}
-
 .green-links-vids{
     color: darkolivegreen;
 }

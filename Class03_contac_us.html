@@ -5,70 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact us</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contac_us.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <style>
-   
-    form{
-        box-shadow: rgb(112, 71, 71) 10px 10px 10px
-    }
+    
 </style>
 
-<body class="background-color-task-1">
-    <h1  class=title  > Contact Us </h1>
-    
-    <p style="position: fixed ; top:50px;right: 0px;;">Shahid</p>
+<body>
+    <h1> Contact Us </h1>  
+    <form>
+            <label>First name <input type="text" required style="color:inherit;" /></label> <br />
+            <label>Last name <input type="text" required /></label><br />
+            <label>Address <input type="text" required /></label><br/>
+            <label>Phone number <input type="number" required /></label><br />
+            <label>Email<input type="email" required /></label><br />
+            <label>Contect <br><textarea rows="7" required></textarea></label><br />
+            <label>Accept terms of use<input type="checkbox" required /></label><br>
+            <label>Agree to receive marketing emalis <input type="checkbox" required /></label><br>
 
-    <form id="contact-us-form" style="position: relative ; top: 10px ;">
-
-        <label>
-            First name <input type="text" required style="color:inherit;" />
-        </label> <br />
-
-        <label>
-            Last name <input type="text" required />
-        </label><br />
-
-        <label>
-            Address <input type="text" required />
-        </label><br />
-
-        <label>
-            Phone number <input type="number" required />
-        </label><br />
-
-        <label>
-            Email<input type="email" required />
-        </label><br />
-
-        <label>
-            Contect <br><textarea rows="7" required></textarea>
-        </label><br />
-
-        <label>
-            Accept terms of use<input type="checkbox" required />
-        </label><br>
-
-        <label>
-            Agree to receive marketing emalis <input type="checkbox" required />
-        </label><br>
-
-        <h4>how did you find us</h4>
-        <select name="contact_source" required>
+         <h4>how did you find us</h4>
+         <select name="contact_source" required>
             <option value="fb">facebook</option>
             <option value="ggl">google</option>
             <option value="fir">friend</option>
             <option value="oth">other</option>
             <option value="f" selected disabled>Chose from the list</option>
-        </select><br>
-        <button value="submit" id="contact-us-button" style="position: absolute ; right:10px; bottom: 5px;">Submit</button><br>
+         </select><br>
 
+        <button value="submit" id="contact-us-button">Submit</button><br>
     </form><br>
-    <img style="position: absolute; left: 0;top: 0;" src="https://img.uxcel.com/tags/notifications-1700498330224-2x.jpg"  width="90" >
-    <button style="margin:20000px 0px;  " class="button"><a href="index.html">חזרה לדף הבית</a></button>
+
+    <img src="https://img.uxcel.com/tags/notifications-1700498330224-2x.jpg"   >
+    <button id="back-button"><a href="index.html">חזרה לדף הבית</a></button>
     
 </body>
 </html>
