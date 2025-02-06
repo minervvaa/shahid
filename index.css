@@ -3,7 +3,7 @@ body{
 }
 
 .links {
-    font-size: 20px;
+    /* font-size: 20px; */
     color: green;
     display: block;
     border: 3px rgb(235, 177, 177) solid;
@@ -30,6 +30,7 @@ body{
     position: absolute;
     top: 0px;
     right: 0px;
+    
 }
 
 .img{

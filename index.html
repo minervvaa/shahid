@@ -9,32 +9,30 @@
 
 </head>
 
-<body id="myB">
+<body>
     <h1 id="title">Task 1</h1>
-    <div id="links-container">
+
         <a class="links" href="personal_details.html">פרטים אישיים</a><br>
         <a class="links" href="news.htm">חדשות</a> <br>
         <a class="links" href="videos.html">סרטונים</a><br>
         <a class="links" href="contac_us.html">contact us</a><br>
-    </div>
+   
 
     <div id ="light-mood">
         <img onclick=" 
-        document.getElementById('myB').style.backgroundColor = 'rgb(233, 202, 202)';
+        document.body.style.backgroundColor =  'rgb(233, 202, 202)';
         document.getElementById('title').style.color = 'black';
         document.getElementById('dark-mood').style.zIndex = '+3';
         document.getElementById('light-mood').style.zIndex = '+2';
         "class="img" src="dark-mood1.png" >
     </div>
-    
+
     <div id ="dark-mood">
         <img onclick=" 
-        document.getElementById('myB').style.backgroundColor = 'rgb(51, 43, 43)'; 
+        document.body.style.backgroundColor = 'rgb(51, 43, 43)'; 
         document.getElementById('title').style.color = 'white';
         document.getElementById('light-mood').style.zIndex = '+3';
         document.getElementById('dark-mood').style.zIndex = '+2';
-        document.getElementById('links-container').style.backgroundColor = rgb(78, 83, 73)
-        document.getElementsById('links-container').style.color = 'white';
         " class="img" src="sun-mood.png" >
 
     </div>
