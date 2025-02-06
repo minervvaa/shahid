@@ -23,15 +23,23 @@ body{
 #dark-mood {
     position: absolute;
     top: 0px;
+    right: 0px;
 }
 
 #light-mood {
-
     position: absolute;
     top: 0px;
-    /* left:80px; */
+    right: 0px;
 }
 
 .img{
     width: 50px;
 }
+
+.img:hover{
+    cursor: pointer;
+}
+
+
+
+
