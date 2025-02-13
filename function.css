@@ -1,19 +1,19 @@
-body{
+body {
     display: flex;
     background-color: #816a6d;
     justify-content: center;
-    
+
 }
 
-#Basis{
+#Basis {
     display: flex;
     justify-content: center;
     position: fixed;
     top: 100px;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     width: 200px;
     height: 300px;
-    border-radius: 20px; 
+    border-radius: 20px;
 }
 
 .results {
@@ -21,16 +21,15 @@ body{
     width: 160px;
     color: rgb(255, 255, 255);
     background-color: rgb(223, 153, 163);
-    border: 3px  rgb(223, 153, 163) solid;
+    border: 3px rgb(223, 153, 163) solid;
     border-radius: 10px;
     font-size: 40px;
     text-align: center;
     position: absolute;
     top: 19px;
-     
 }
-.num{
-   
+
+.num {
     display: flex;
     justify-content: space-evenly;
     position: absolute;
@@ -39,8 +38,8 @@ body{
     background-color: #f4d8dc;
     border-radius: 30px;
     width: 170px;
-
 }
+
 input {
     border: 1px #df99a3 solid;
     background-color: #df99a3;
@@ -51,36 +50,36 @@ input {
     color: rgb(255, 255, 255);
     font-size: 20px;
     margin: 1%;
-    bottom: 1px;   
+    bottom: 1px;
 }
 
 input:hover {
     cursor: pointer;
-    
+
 }
 
 
 button {
     width: 40px;
     height: 40px;
-    text-align: center;
-    border-radius: 60px;
+    border-radius: 30px;
     border: 1px #f8d9de solid;
     background-color: #f8d9de;
-    
+
 }
 
 
-h1{
-    /* border: 3px #df99a3 solid;
-    border-radius: 40px; */
+h1 {
+    /* border: 3px white solid;
+    border-radius: 10px;
+    background-color: white; */
     position: absolute;
     left: 0px;
-    color:rgb(246, 196, 208);
+    color: rgb(241, 221, 226);
 
 }
 
-#math{
+#math {
     gap: 4px;
     width: 170px;
     height: 130px;
@@ -93,7 +92,3 @@ h1{
     bottom: 60px;
     /* background-color: rgb(143, 126, 104);  */
 }
-
-
-
-
