@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exam-20-3-25</title>
+    <link rel="stylesheet" href="exam.css">
+    <script src="exam.js"></script>
+</head>
+
+<body>
+    <form id="firForm">
+        
+        <h1>New Product</h1>
+        <button id="AddingButton" onclick="adding(event);"> Add Product </button>
+        
+
+            <div id="divFirFrom">
+                <input id="I1" placeholder="place the Product`s name " type="text">
+                <input id="I2" placeholder="place the Product`s price " type="number">
+                <input id="imgLink" placeholder="place the Product`s image " type="text">
+                
+                <select name="select" id="select-id">
+                    <option value="Drinks">Drinks</option>
+                    <option value="Meat">Meat</option>
+                    <option value="Dairy">Dairy</option>
+                    <option value="Snacks">Snacks</option>
+                    <option value="Basic">Basic</option>
+                    <option value="no category selected"selected disabled>Chose from the list</option>
+                </select>
+            </div>
+            
+            <!-- <img src="https://media.istockphoto.com/id/2166573931/photo/reflection-of-people-on-glass-window.webp?a=1&b=1&s=612x612&w=0&k=20&c=UdSzmftZeqCloH6onoK1t11jXsocSfv7QNJzTkwFfVU="/> -->
+        </form>
+<div id="cartDiv">
+    <h1 id="myart"> My cart </h1>
+</div>
+        
+        <table id="table">
+
+            <thead>
+                
+                <tr>
+                    <td>Produt name</td>
+                    <td>Produt price</td>
+                    <td>Produt image</td>
+                    <td>Produt Category</td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td id="name"></td>
+                    <td id="price"></td>
+                    <td id="image"></td>
+                    <td id="Category"></td>
+                </tr>
+            </tbody>
+
+        </table>
+
+    
+
+
+</body>
+
+</html>
